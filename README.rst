@@ -1,20 +1,8 @@
-===============
-awesome-slugify
-===============
-.. image:: https://travis-ci.org/dimka665/awesome-slugify.svg?branch=master
-    :target: https://travis-ci.org/dimka665/awesome-slugify
-
-**Python flexible slugify function**
-
-| PyPi: https://pypi.python.org/pypi/awesome-slugify
-| Github: https://github.com/dimka665/awesome-slugify
-
-
 Install
 =======
 .. code-block:: bash
 
-    pip install awesome-slugify
+    pip install -e git+https://github.com/amslv/awesome-slugify
 
 Usage
 =====
@@ -157,13 +145,3 @@ Custom Unique Slugify Checker
 
     # Checks the database for a matching document
     custom_slugify_unique('te occidere possunt')
-
-
-Running UnitTests
-=================
-
-.. code-block:: bash
-
-    $ virtualenv venv
-    $ venv/bin/pip install -r requirements.txt
-    $ venv/bin/nosetests slugify
